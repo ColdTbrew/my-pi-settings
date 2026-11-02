@@ -1,0 +1,32 @@
+{
+  "lastChangelogVersion": "1.5.0",
+  "defaultProvider": "opencodex",
+  "defaultModel": "gpt-6.1-sol--fast",
+  "defaultThinkingLevel": "high",
+  "defaultTools": [
+    "+codemode"
+  ],
+  "skills": [
+    "~/.codex/skills/korean-technical-writing",
+    "~/.codex/skills/vercel-design-md",
+    "~/.codex/skills/docs-canvas"
+  ],
+  "deviceId": "5691c557-cc9a-4a28-b1ac-6507ce90d32b",
+  "packages": [
+    "packages/pstack-pi"
+  ],
+  "hideThinkingBlock": true,
+  "showCacheMissNotices": true,
+  "tuiMode": "fullscreen",
+  "compaction": {
+    "enabled": true,
+    "modelOverrides": {
+      "opencodex/gpt-6.1-sol": {
+        "reserveTokens": 50000
+      },
+      "opencodex/gpt-6.1-sol--fast": {
+        "reserveTokens": 50000
+      }
+    }
+  }
+}

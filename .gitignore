@@ -1,0 +1,23 @@
+# Default-deny: only explicitly reviewed configuration is versioned.
+/*
+!/.gitignore
+!/README.md
+!/settings.json
+!/models.example.json
+!/shell/
+!/extensions/
+!/packages/
+
+# Local credentials and generated state (never commit).
+**/auth.json
+**/.env
+**/.env.*
+**/node_modules/
+**/.DS_Store
+**/*.bak*
+**/*.tmp
+**/*.log
+
+# Only the installed, reviewed local package is included.
+/packages/*
+!/packages/pstack-pi/

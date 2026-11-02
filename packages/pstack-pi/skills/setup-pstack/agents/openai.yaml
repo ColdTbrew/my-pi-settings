@@ -1,0 +1,5 @@
+interface:
+  display_name: "Setup Pstack"
+  short_description: "Explicit pstack workflow and engineering guidance."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,447 @@
+{
+  "providers": {
+    "opencodex": {
+      "baseUrl": "http://127.0.0.1:10101/v1",
+      "api": "openai-completions",
+      "apiKey": "$OPENCODEX_API_KEY",
+      "compat": {
+        "sendSessionAffinityHeaders": true,
+        "supportsDeveloperRole": false
+      },
+      "models": [
+        {
+          "id": "deepseek/deepseek-v4-flash",
+          "name": "deepseek/deepseekv4 (deepseek)",
+          "input": [
+            "text",
+            "image"
+          ],
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "off": null,
+            "minimal": null,
+            "low": "low",
+            "medium": null,
+            "high": "high",
+            "xhigh": null,
+            "max": "max"
+          },
+          "contextWindow": 1048576,
+          "maxTokens": 384000
+        },
+        {
+          "id": "google-antigravity/gemini-3.8-flash",
+          "name": "google-antigravity/gemini3.8f (google-antigravity)",
+          "input": [
+            "text",
+            "image"
+          ],
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "off": null,
+            "minimal": null,
+            "low": "low",
+            "medium": "medium",
+            "high": "high",
+            "xhigh": null,
+            "max": null
+          },
+          "contextWindow": 1048576,
+          "maxTokens": 65536
+        },
+        {
+          "id": "gpt-5.6-luna",
+          "name": "gpt-5.6-luna (native)",
+          "input": [
+            "text",
+            "image"
+          ],
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "off": null,
+            "minimal": null,
+            "low": "low",
+            "medium": "medium",
+            "high": "high",
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "contextWindow": 272000,
+          "maxTokens": 128000
+        },
+        {
+          "id": "gpt-5.6-luna--fast",
+          "name": "gpt-5.6-luna Fast (native)",
+          "input": [
+            "text",
+            "image"
+          ],
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "off": null,
+            "minimal": null,
+            "low": "low",
+            "medium": "medium",
+            "high": "high",
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "contextWindow": 272000,
+          "maxTokens": 128000
+        },
+        {
+          "id": "gpt-5.6-sol",
+          "name": "gpt-5.6-sol (native)",
+          "input": [
+            "text",
+            "image"
+          ],
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "off": null,
+            "minimal": null,
+            "low": "low",
+            "medium": "medium",
+            "high": "high",
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "contextWindow": 272000,
+          "maxTokens": 128000
+        },
+        {
+          "id": "gpt-5.6-sol--fast",
+          "name": "gpt-5.6-sol Fast (native)",
+          "input": [
+            "text",
+            "image"
+          ],
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "off": null,
+            "minimal": null,
+            "low": "low",
+            "medium": "medium",
+            "high": "high",
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "contextWindow": 272000,
+          "maxTokens": 128000
+        },
+        {
+          "id": "gpt-5.6-terra",
+          "name": "gpt-5.6-terra (native)",
+          "input": [
+            "text",
+            "image"
+          ],
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "off": null,
+            "minimal": null,
+            "low": "low",
+            "medium": "medium",
+            "high": "high",
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "contextWindow": 272000,
+          "maxTokens": 128000
+        },
+        {
+          "id": "gpt-5.6-terra--fast",
+          "name": "gpt-5.6-terra Fast (native)",
+          "input": [
+            "text",
+            "image"
+          ],
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "off": null,
+            "minimal": null,
+            "low": "low",
+            "medium": "medium",
+            "high": "high",
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "contextWindow": 272000,
+          "maxTokens": 128000
+        },
+        {
+          "id": "gpt-6-astra",
+          "name": "gpt-6-astra (native)",
+          "input": [
+            "text",
+            "image"
+          ],
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "off": null,
+            "minimal": null,
+            "low": "low",
+            "medium": "medium",
+            "high": "high",
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "contextWindow": 272000,
+          "maxTokens": 32000
+        },
+        {
+          "id": "gpt-6-astra--fast",
+          "name": "gpt-6-astra Fast (native)",
+          "input": [
+            "text",
+            "image"
+          ],
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "off": null,
+            "minimal": null,
+            "low": "low",
+            "medium": "medium",
+            "high": "high",
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "contextWindow": 272000,
+          "maxTokens": 32000
+        },
+        {
+          "id": "gpt-6-luna",
+          "name": "gpt-6-luna (native)",
+          "input": [
+            "text",
+            "image"
+          ],
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "off": null,
+            "minimal": null,
+            "low": "low",
+            "medium": "medium",
+            "high": "high",
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "contextWindow": 272000,
+          "maxTokens": 128000
+        },
+        {
+          "id": "gpt-6-luna--fast",
+          "name": "gpt-6-luna Fast (native)",
+          "input": [
+            "text",
+            "image"
+          ],
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "off": null,
+            "minimal": null,
+            "low": "low",
+            "medium": "medium",
+            "high": "high",
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "contextWindow": 272000,
+          "maxTokens": 128000
+        },
+        {
+          "id": "gpt-6-sol",
+          "name": "gpt-6-sol (native)",
+          "input": [
+            "text",
+            "image"
+          ],
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "off": null,
+            "minimal": null,
+            "low": "low",
+            "medium": "medium",
+            "high": "high",
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "contextWindow": 272000,
+          "maxTokens": 128000
+        },
+        {
+          "id": "gpt-6-sol--fast",
+          "name": "gpt-6-sol Fast (native)",
+          "input": [
+            "text",
+            "image"
+          ],
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "off": null,
+            "minimal": null,
+            "low": "low",
+            "medium": "medium",
+            "high": "high",
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "contextWindow": 272000,
+          "maxTokens": 128000
+        },
+        {
+          "id": "gpt-6.1-sol",
+          "name": "gpt-6.1-sol (native)",
+          "input": [
+            "text",
+            "image"
+          ],
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "off": null,
+            "minimal": null,
+            "low": "low",
+            "medium": "medium",
+            "high": "high",
+            "xhigh": "xhigh",
+            "max": "max"
+          }
+        },
+        {
+          "id": "gpt-6.1-sol--fast",
+          "name": "gpt-6.1-sol Fast (native)",
+          "input": [
+            "text",
+            "image"
+          ],
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "off": null,
+            "minimal": null,
+            "low": "low",
+            "medium": "medium",
+            "high": "high",
+            "xhigh": "xhigh",
+            "max": "max"
+          }
+        },
+        {
+          "id": "gx10-qwen/Qwen3.8-Flash-Next",
+          "name": "Qwen3.8-Flash-Next (gx10-qwen)",
+          "input": [
+            "text",
+            "image"
+          ],
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "off": null,
+            "minimal": null,
+            "low": "low",
+            "medium": "medium",
+            "high": null,
+            "xhigh": "xhigh",
+            "max": null
+          },
+          "contextWindow": 262144,
+          "maxTokens": 32000
+        },
+        {
+          "id": "xai/grok-4.6",
+          "name": "xai/grok4.6 (xai)",
+          "input": [
+            "text",
+            "image"
+          ],
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "off": null,
+            "minimal": null,
+            "low": "low",
+            "medium": "medium",
+            "high": "high",
+            "xhigh": "xhigh",
+            "max": null
+          },
+          "contextWindow": 500000,
+          "maxTokens": 500000
+        },
+        {
+          "id": "xai/grok-4.6--fast",
+          "name": "xai/grok4.6 Fast (xai)",
+          "input": [
+            "text",
+            "image"
+          ],
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "off": null,
+            "minimal": null,
+            "low": "low",
+            "medium": "medium",
+            "high": "high",
+            "xhigh": "xhigh",
+            "max": null
+          },
+          "contextWindow": 500000,
+          "maxTokens": 500000
+        },
+        {
+          "id": "xai/grok-4.7",
+          "name": "grok-4.7 (xai)",
+          "input": [
+            "text",
+            "image"
+          ],
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "off": null,
+            "minimal": null,
+            "low": "low",
+            "medium": "medium",
+            "high": "high",
+            "xhigh": "xhigh",
+            "max": null
+          },
+          "contextWindow": 500000,
+          "maxTokens": 500000
+        },
+        {
+          "id": "xai/grok-4.7--fast",
+          "name": "grok-4.7 Fast (xai)",
+          "input": [
+            "text",
+            "image"
+          ],
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "off": null,
+            "minimal": null,
+            "low": "low",
+            "medium": "medium",
+            "high": "high",
+            "xhigh": "xhigh",
+            "max": null
+          },
+          "contextWindow": 500000,
+          "maxTokens": 500000
+        },
+        {
+          "id": "xai/grok-composer-2.5-fast",
+          "name": "xai/composer2.5f (xai)",
+          "input": [
+            "text",
+            "image"
+          ]
+        },
+        {
+          "id": "xai/grok-composer-2.5-fast--fast",
+          "name": "xai/composer2.5f Fast (xai)",
+          "input": [
+            "text",
+            "image"
+          ]
+        }
+      ]
+    }
+  }
+}
