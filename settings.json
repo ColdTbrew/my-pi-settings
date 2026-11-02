@@ -3,6 +3,18 @@
   "defaultProvider": "opencodex",
   "defaultModel": "gpt-6.1-sol--fast",
   "defaultThinkingLevel": "high",
+  "enabledModels": [
+    "anthropic/claude-fable-5*",
+    "anthropic/claude-haiku-5*",
+    "anthropic/claude-opus-5*",
+    "anthropic/claude-sonnet-5*",
+    "openai/gpt-6*",
+    "opencodex/deepseek/*",
+    "opencodex/google-antigravity/*",
+    "opencodex/gpt-6*",
+    "opencodex/gx10-qwen/*",
+    "opencodex/xai/grok-4.7*"
+  ],
   "defaultTools": [
     "+codemode"
   ],
@@ -28,5 +40,7 @@
         "reserveTokens": 50000
       }
     }
-  }
+  },
+  "cacheWarming": "streaming",
+  "theme": "system"
 }
